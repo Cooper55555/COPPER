@@ -1887,6 +1887,83 @@ a:hover.back-to-top {
   }
 
 
+  .trophy-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.trophy-wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin: auto;
+    justify-items: center; /* Center items in grid */
+}
+
+.trophy {
+    background-color: white; /* Trophy background color */
+    border: 3px solid #5cca67; /* Trophy border color */
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between icon and text */
+    height: 200px; /* Ensures consistent height */
+}
+
+.trophy2 {
+    background-color: white; /* Trophy background color */
+    border: 3px solid #ca5c5c; /* Trophy border color */
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between icon and text */
+    height: 200px; /* Ensures consistent height */
+}
+
+.trophy:hover {
+    transform: scale(1.05);
+}
+
+.trophy2:hover {
+    transform: scale(1.05);
+}
+
+.trophy-icon {
+    font-size: 40px;
+    color: #5cca67; /* Icon color */
+}
+
+.trophy-icon2 {
+    font-size: 40px;
+    color: #ca5c5c; /* Icon color */
+}
+
+.line {
+    height: 2px;
+    background-color: #5cca67; /* Line color */
+    margin: 10px 0; /* Adds spacing around the line */
+}
+
+.line2 {
+    height: 2px;
+    background-color: #ca5c5c; /* Line color */
+    margin: 10px 0; /* Adds spacing around the line */
+}
+
+#trophy-p {
+    color: #5cca67; /* Text color for achievements */
+}
+
+#trophy-p2 {
+    color: #ca5c5c; /* Text color for achievements */
+}
 /*****************************/
 /*     19. Media Queries     */
 /*****************************/	
